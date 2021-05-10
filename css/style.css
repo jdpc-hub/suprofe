@@ -16,15 +16,13 @@ main {
     background-color: aqua;
     padding: 20px;
 }
-.indexSection {
+#section {
     border: 5px solid black;
     margin: 5px;
     padding: 5px;
 }
 form {
     padding: 60px;
-    /* padding-left: 60px;
-    padding-right: 60px; */
     background-color: #E7E7E7;
 }
 form input {
