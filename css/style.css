@@ -1,0 +1,39 @@
+body {
+    background-color: darkgray;
+    margin: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-family: monospace;
+    font-size: x-large;
+}
+header {
+    background-color: white;
+    padding: 5px;
+}
+main {
+    background-color: aqua;
+    padding: 20px;
+}
+.indexSection {
+    border: 5px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+form {
+    padding: 60px;
+    /* padding-left: 60px;
+    padding-right: 60px; */
+    background-color: #E7E7E7;
+}
+form input {
+    margin-bottom: 15px;
+    width: 90%;
+    padding: 10px;
+    border: none;
+}
+footer {
+    background-color: white;
+    padding: 5px;
+}
