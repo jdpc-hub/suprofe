@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Log in</title>
 </head>
 <body>
@@ -25,12 +26,15 @@
             <h1>Inicia sesión</h1>
             <p>Inicia sesión para disfrutar de todos nuestros servicios.</p>
             <form action="./homeUsuario.html">
-                <label for="email">
-                    <span>Email:</span>
-                    <input type="email" id="email" placeholder="Ingresa tu email" required>
+                <label for="usuario">
+                    <span>Usuario:</span>
+                    <br>
+                    <input type="text" id="usuario" placeholder="Ingresa tu usuario" required>
                 </label>
+                <br>
                 <label for="clave">
                     <span>Clave:</span>
+                    <br>
                     <input type="password" id="clave">
                 </label>
                 <input type="submit" value="Entrar">
@@ -38,7 +42,7 @@
         </section>
     </main>
     <footer>
-        <p>Copyright © Suprofe.com. Derechos reservados. <a href="./politicaPrivacidad.html">Política de privacidad.</a></p>
+        <span>Copyright © Suprofe.com. Derechos reservados. <a href="./politicaPrivacidad.html">Política de privacidad.</a></span>
     </footer>
 </body>
 </html>
