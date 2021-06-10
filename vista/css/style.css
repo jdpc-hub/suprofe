@@ -12,6 +12,15 @@ header {
     background-color: white;
     padding: 5px;
 }
+header nav a {
+    text-decoration: none;
+    color: blue;
+}
+header nav a:hover {
+    text-decoration: none;
+    color: green;
+    border: 1px solid black;
+}
 main {
     background-color: aqua;
     padding: 20px;
