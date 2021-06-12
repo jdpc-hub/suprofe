@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="vista/css/style.css">
     <title>Registro</title>
 </head>
 <body>
     <header>
-        <a href="./inicio.html">
-            <img src="../images/logo.jpg" alt="Logo de suprofe.com" width="100" height="100">
+        <a href="index.php">
+            <img src="vista/images/logo.jpg" alt="Logo de suprofe.com" width="100" height="100">
         </a>
         <nav>
-            <a href="./inicio.html">Inicio</a>
-            <a href="./nosotros.html">Nosotros</a>
-            <a href="https://wa.me/573053070002?text=Me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n"  target="_blank">Contáctanos</a>
-            <a href="./registro.html">Regístrate</a>
-            <a href="./login.html">Iniciar sesión</a>
+            <a href="index.php">Inicio</a>
+            <a href="index.php?action=nosotros">Nosotros</a>
+            <a href="https://wa.me/573053070002?text=Me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n" target="_blank">Contáctanos</a>
+            <a href="index.php?action=registro">Regístrate</a>
+            <a href="index.php?action=login">Iniciar sesión</a>
         </nav>
     </header>
     <main>
