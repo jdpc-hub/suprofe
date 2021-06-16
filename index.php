@@ -1,13 +1,19 @@
 <?php
 if (isset($_GET["action"])) {
-    if ($_GET["action"] == "nosotros") {
-        require_once 'vista/html/nosotros.php';
-    } elseif ($_GET["action"] == "registro") {
-        require_once 'vista/html/registro.php';
-    } elseif ($_GET["action"] == "login") {
-        require_once 'vista/html/login.php';
-    } elseif ($_GET["action"] == "politica_privacidad") {
-        require_once 'vista/html/politicaPrivacidad.php';
+    $action = $_GET["action"];
+    switch ($action) {
+        case "nosotros":
+            require_once 'vista/html/nosotros.php';
+            break;
+        case "registro":
+            require_once 'vista/html/registro.php';
+            break;
+        case "login":
+            require_once 'vista/html/login.php';
+            break;
+        case "politica_privacidad":
+            require_once 'vista/html/politicaPrivacidad.php';
+            break;
     }
 } elseif (isset($_POST["action"])) {
     if ($_POST["action"] == "guardarExterna") {
