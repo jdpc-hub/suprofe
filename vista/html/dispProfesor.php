@@ -75,7 +75,7 @@
         </section>
     </main>
     <footer>
-        <p>Copyright © Suprofe.com. Derechos reservados. <a href="./politicaPrivacidad.html">Política de privacidad.</a></p>
+        <p>Copyright © Suprofe.com. Derechos reservados. <a href="index.php?action=politica_privacidad">Política de privacidad.</a></p>
     </footer>
 </body>
 </html>
