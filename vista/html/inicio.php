@@ -27,8 +27,8 @@
         </section>
         <section id="section">
             <h1>Encuentra a tu profe o haz una pregunta</h1>
-            <p>Déjanos tus datos, nosotros te contactamos. O <a href="./registro.html">regístrate</a> para que puedas elegirlo tú mismo.</p>
-            <form action="">
+            <p>Déjanos tus datos, nosotros te contactamos. O <a href="index.php?action=registro">regístrate</a> para que puedas elegirlo tú mismo.</p>
+            <form id="form_inicio" action="index.php?action=guardarExterna" method="post">
                 <label for="nombre">
                     <span>Nombre:</span>
                     <br>
@@ -75,7 +75,7 @@
         </section>
     </main>
     <footer>
-        <span>Copyright © Suprofe.com. Derechos reservados. <a href="./politicaPrivacidad.html">Política de privacidad.</a></span>
+        <span>Copyright © Suprofe.com. Derechos reservados. <a href="index.php?action=politica_privacidad">Política de privacidad.</a></span>
     </footer>
 </body>
 </html>
