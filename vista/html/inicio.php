@@ -28,7 +28,7 @@
         <section id="section">
             <h1>Encuentra a tu profe o haz una pregunta</h1>
             <p>Déjanos tus datos, nosotros te contactamos. O <a href="index.php?action=registro">regístrate</a> para que puedas elegirlo tú mismo.</p>
-            <form id="form_inicio" action="index.php?action=guardarExterna" method="post">
+            <form id="form_inicio" action="index.php?action=guardar_externa" method="post">
                 <label for="nombre">
                     <span>Nombre:</span>
                     <br>
@@ -53,7 +53,7 @@
                     <textarea name="pregunta" id="pregunta" cols="100" rows="10" placeholder="Pregúntanos algo"></textarea>
                 </label>
                 <br>
-                <label for="archivo">
+                <!-- <label for="archivo">
                     <span>Adjunta un documento:</span>
                     <br>
                     <input type="file" id="archivo">
@@ -68,7 +68,7 @@
                 <label for="datos">
                     <input type="checkbox" id="datos" required>
                     <span>Acepto la <a href="./politicaPrivacidad.html">política de tratamiento de datos</a>.</span>
-                </label>
+                </label> -->
                 <br>
                 <input type="submit" value="Solicitar">
             </form>

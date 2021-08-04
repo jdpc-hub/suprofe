@@ -21,8 +21,5 @@ class Externa {
     public function getEmail() {
         return $this->email;
     }
-    public function getPregunta() {
-        return $this->pregunta;
-    }
 }
 ?>
