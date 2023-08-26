@@ -53,7 +53,7 @@
                     <textarea name="pregunta" id="pregunta" cols="100" rows="10" placeholder="Pregúntanos algo"></textarea>
                 </label>
                 <br>
-                <!-- <label for="archivo">
+                <label for="archivo">
                     <span>Adjunta un documento:</span>
                     <br>
                     <input type="file" id="archivo">
@@ -68,7 +68,7 @@
                 <label for="datos">
                     <input type="checkbox" id="datos" required>
                     <span>Acepto la <a href="./politicaPrivacidad.html">política de tratamiento de datos</a>.</span>
-                </label> -->
+                </label>
                 <br>
                 <input type="submit" value="Solicitar">
             </form>
