@@ -14,22 +14,13 @@ if (isset($_GET["action"])) {
             require_once 'vista/html/politicaPrivacidad.php';
             break;
         case 'guardar_externa':
-            echo 'pasaba por aquí';
-            require_once 'modelo/Conexion.php';
-            $conexion = new Conexion();
-            $conexion->abrir();
-            echo "Guardando";
+            require_once 'modelo/Externa.php';
+            $externa = new Externa($_POST['nombre'],$_POST['telefono'],$_POST['email'],$_POST['pregunta']);
+            $externa->create();
             break;
     }
-} elseif (isset($_POST["action"])) {
-    if ($_POST["action"] == "guardar_externa") {
-        require_once 'modelo/Conexion.php';
-        $conexion = new Conexion();
-        $conexion->abrir();
-        echo "Guardando";
-        //$conexion->cerrar();
-    }
-} else {
+}
+else {
     require_once 'vista/html/inicio.php';
 }
 ?>

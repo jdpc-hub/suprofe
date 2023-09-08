@@ -28,32 +28,32 @@
         <section id="section">
             <h1>Encuentra a tu profe o haz una pregunta</h1>
             <p>Déjanos tus datos, nosotros te contactamos. O <a href="index.php?action=registro">regístrate</a> para que puedas elegirlo tú mismo.</p>
-            <form id="form_inicio" action="index.php?action=guardar_externa" method="post">
+            <form id="form_externas" action="index.php?action=guardar_externa" method="post">
                 <label for="nombre">
                     <span>Nombre:</span>
                     <br>
-                    <input type="text" id="nombre" placeholder="Ingresa tu nombre" required>
+                    <input type="text" name="nombre" placeholder="Ingresa tu nombre" required>
                 </label>
                 <br>
                 <label for="telefono">
                     <span>Teléfono:</span>
                     <br>
-                    <input type="tel" id="telefono" placeholder="Ingresa tu número telefónico" required>
+                    <input type="tel" name="telefono" placeholder="Ingresa tu número telefónico" required>
                 </label>
                 <br>
                 <label for="email">
                     <span>Email:</span>
                     <br>
-                    <input type="email" id="email" placeholder="Ingresa tu email" required>
+                    <input type="email" name="email" placeholder="Ingresa tu email" required>
                 </label>
                 <br>
                 <label for="pregunta">
                     <span>Escribe tu pregunta:</span>
                     <br>
-                    <textarea name="pregunta" id="pregunta" cols="100" rows="10" placeholder="Pregúntanos algo"></textarea>
+                    <textarea name="pregunta" name="pregunta" cols="100" rows="10" placeholder="Pregúntanos algo"></textarea>
                 </label>
                 <br>
-                <label for="archivo">
+                <!-- <label for="archivo">
                     <span>Adjunta un documento:</span>
                     <br>
                     <input type="file" id="archivo">
@@ -63,10 +63,10 @@
                     <span>Materia:</span>
                     <br>
                     <input type="text" id="materia" placeholder="Ej: Matemáticas, Física, Geometría, etc.">
-                </label>
+                </label> -->
                 <br>
                 <label for="datos">
-                    <input type="checkbox" id="datos" required>
+                    <input type="checkbox" name="datos" required>
                     <span>Acepto la <a href="./politicaPrivacidad.html">política de tratamiento de datos</a>.</span>
                 </label>
                 <br>
